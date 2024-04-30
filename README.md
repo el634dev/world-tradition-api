@@ -34,3 +34,6 @@ Follow this [Node.js Deployment Guide](https://devcenter.heroku.com/articles/get
 ## [BEW 1.3] Project Requirements
 
 * View the [**requirements document**](https://github.com/Product-College-Courses/BEW-1.2-Authentication-and-Associations/blob/master/Projects/02-Custom-API-Project.md) in the [Class Repository](https://github.com/Product-College-Courses/BEW-1.2-Authentication-and-Associations).
+
+## Acknowledgements
+> Shoutout all articles for providing information that was included for this api

@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const express = require('express');
-var cookieParser = require('cookie-parser');
+const cookieParser = require('cookie-parser');
 const jwt = require('jsonwebtoken');
 
 const app = express();
@@ -17,26 +17,29 @@ app.use(cookieParser());
 
 require('./data/db');
 
-var checkAuth = (req, res, next) => {
+const checkAuth = (req, res, next) => {
   console.log("Checking authentication");
   if (typeof req.cookies.nToken === "undefined" || req.cookies.nToken === null) {
     req.user = null;
   } else {
-    var token = req.cookies.nToken;
-    var decodedToken = jwt.decode(token, { complete: true }) || {};
+    let token = req.cookies.nToken;
+    let decodedToken = jwt.decode(token, { complete: true }) || {};
     req.user = decodedToken.payload;
   }
 
   next();
 };
+// Validator
 app.use(checkAuth);
 
+// -------------
+// Add each controller here, after all middleware is initialized.
+require('./controllers/auth')
 
-// TODO: Add each controller here, after all middleware is initialized.
-
-
-app.listen(3000, () => {
-    console.log('API listening on port http://localhost:3000!');
+// -------------
+// Port
+app.listen(process.env.PORT, () => {
+    console.log(`API listening on port http://localhost:${process.env.PORT}!`);
   });
 
 module.exports = app;

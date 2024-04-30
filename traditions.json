@@ -1,0 +1,62 @@
+[
+    {
+        "_id": 1,
+        "country": "Germany",
+        "tradition": "Hanging Advent Calendars",
+        "holiday": "Christmas"
+    },
+    {
+        "_id": 2,
+        "country": "Mexico",
+        "tradition": "Decorating altars commonly called ofrendas that are built in homes and cemeteries along with offerings of food and drink.",
+        "holiday": "Day of the Dead"
+    },
+    {
+        "_id": 3,
+        "country": "China",
+        "tradition": "New year celebration where red decorations symbolize luck, red envelopes with money are exchanged and family reunites with one another.",
+        "holiday": "Chinese New Year"
+    },
+    {
+        "_id": 4,
+        "country": "Denmark",
+        "tradition": "People gather around a bonfire and place a fake witch figure typically made of straw in the bonfire. Today people gather for family night and have a good time.",
+        "holiday": "Summer Solstice"
+    },
+    {
+        "_id": 5,
+        "country": "Spain",
+        "tradition": "Thousands gather to engage in a massive tomato fight and pelt each other with ripe tomatoes.",
+        "holiday": "La Tomatina"
+    },
+    {
+        "_id": 6,
+        "country": "United States",
+        "tradition": "Families gather, give thanks for their blessings and share a traditional meal that includes turkey.",
+        "holiday": "Thanksgiving"
+    },
+    {
+        "_id": 7,
+        "country": "Colombia",
+        "tradition": "People light up their homes and the streets with millions of white and colored candles in patterned paper lanterns.",
+        "holiday": "Night of the Little Candles"
+    },
+    {
+        "_id": 8,
+        "country": "Japan",
+        "tradition": "A traditional ritual that has practiced for centuries that takes place in a special room called a chashitsu and led by a trained host.",
+        "holiday": "Tea Ceremony"
+    },
+    {
+        "_id": 9,
+        "country": "Canada",
+        "tradition": "Canadians across the country take a plunge into the icy-cold waters to welcome the new year with an invigorating start.",
+        "holiday": "Polar Bear Swim"
+    },
+    {
+        "_id": 10,
+        "country": "United Kingdom",
+        "tradition": "Groups of children dress in scary costumes roaming from house to house saying trick or treat.",
+        "holiday": "Halloween"
+    }
+]

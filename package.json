@@ -6,14 +6,13 @@
   "scripts": {
     "test": "mocha --timeout 10000"
   },
-  "author": "Dani Roxberry",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "express-validator": "^5.3.1",
@@ -24,6 +23,10 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
-    "mocha": "^8.2.1"
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "mocha": "^8.2.1",
+    "nodemon": "^3.1.0"
   }
 }
