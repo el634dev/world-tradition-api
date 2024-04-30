@@ -18,12 +18,12 @@ app.use(cookieParser());
 require('./data/db');
 
 const checkAuth = (req, res, next) => {
-  console.log("Checking authentication");
-  if (typeof req.cookies.nToken === "undefined" || req.cookies.nToken === null) {
+  console.log('Checking authentication');
+  if (typeof req.cookies.nToken === 'undefined' || req.cookies.nToken === null) {
     req.user = null;
   } else {
-    let token = req.cookies.nToken;
-    let decodedToken = jwt.decode(token, { complete: true }) || {};
+    const token = req.cookies.nToken;
+    const decodedToken = jwt.decode(token, { complete: true }) || {};
     req.user = decodedToken.payload;
   }
 
@@ -34,12 +34,12 @@ app.use(checkAuth);
 
 // -------------
 // Add each controller here, after all middleware is initialized.
-require('./controllers/auth')
+require('./controllers/auth');
 
 // -------------
 // Port
 app.listen(process.env.PORT, () => {
-    console.log(`API listening on port http://localhost:${process.env.PORT}!`);
-  });
+  console.log(`API listening on port http://localhost:${process.env.PORT}!`);
+});
 
 module.exports = app;
