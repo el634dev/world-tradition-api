@@ -1,11 +1,8 @@
 # 🔐 World Traditions API
 > Information about different countries traditions and holidays
 
-[![GitHub](https://img.shields.io/github/forks/droxey/auth-api-starterpack.svg?style=flat-square)](https://github.com/droxey/auth-api-starterpack/network)
-[![GitHub](https://img.shields.io/github/issues/droxey/auth-api-starterpack.svg?style=flat-square)](https://github.com/droxey/auth-api-starterpack/issues)
+[![GitHub](https://img.shields.io/github/issues/el634dev/world-tradition-api.svg?style=flat-square)](https://github.com/el634dev/world-tradition-api/issues)
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-
-Custom, authenticated API instructions and starter pack for BEW 1.3 students!
 
 ## Installation
 
@@ -22,19 +19,10 @@ Custom, authenticated API instructions and starter pack for BEW 1.3 students!
 
 ## Development
 
-### `#TODO` === Hint
-
-* I've added **helpful `#TODO` placeholders, comments, and hints throughout the project** to jog your memory in case you need a hand! Simply `CTRL` + `Shift` + `F` to Find All in your editor, and **search for `#TODO`.** You'll find a helpful list of hints waiting for you!
-
 ## Deployment
 
 ### Heroku
-
 Follow this [Node.js Deployment Guide](https://devcenter.heroku.com/articles/getting-started-with-nodejs) to deploy your application on Heroku. Be sure to complete all of the steps!
-
-## [BEW 1.3] Project Requirements
-
-* View the [**requirements document**](https://github.com/Product-College-Courses/BEW-1.2-Authentication-and-Associations/blob/master/Projects/02-Custom-API-Project.md) in the [Class Repository](https://github.com/Product-College-Courses/BEW-1.2-Authentication-and-Associations).
 
 ## Acknowledgements
 > Shoutout all articles for providing information that was included for this api
