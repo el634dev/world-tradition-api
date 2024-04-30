@@ -1,4 +1,5 @@
-# 🔐 auth-api-starterpack
+# 🔐 World Traditions API
+> Information about different countries traditions and holidays
 
 [![GitHub](https://img.shields.io/github/forks/droxey/auth-api-starterpack.svg?style=flat-square)](https://github.com/droxey/auth-api-starterpack/network)
 [![GitHub](https://img.shields.io/github/issues/droxey/auth-api-starterpack.svg?style=flat-square)](https://github.com/droxey/auth-api-starterpack/issues)
