@@ -15,7 +15,8 @@
     ```
 
 1. Run `npm install` to install project dependencies into the activated environment if you have cloned or fork this repository.
-1. Execute `npm start` to run the development server.
+2. Create a .env file with your MongoDB URI/URL link and a secret key, the port is optional.
+3. Execute `npm start` to run the development server.
 
 ## Endpoints:
 
